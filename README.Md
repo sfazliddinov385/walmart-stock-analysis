@@ -95,7 +95,6 @@ The dashboard connects live to Azure SQL and shows:
 - Big numbers showing today's price and changes
 - A line chart showing prices over time
 - A bar chart showing trading volume
-- Buttons to look at different time periods (1 month, 3 months, etc.)
 - A green "BUY" or red "SELL" signal
 
 ### DAX Measures I Created
