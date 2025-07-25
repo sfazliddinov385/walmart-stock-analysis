@@ -1,0 +1,35 @@
+
+WALMART STOCK STRATEGY - EXECUTIVE SUMMARY
+==========================================
+
+RECOMMENDATION: BUY/HOLD
+
+Current Price: $96.67
+200-Day MA: $92.07
+Premium to MA: 5.0%
+
+52-YEAR PERFORMANCE (1972-2024)
+-------------------------------
+Strategy Return: 27,403% ($10k → $2.75M)
+Buy & Hold Return: 1,791,781% ($10k → $179M)
+Annual Return: ~11.4% vs ~20.7%
+
+WHY USE THIS STRATEGY?
+----------------------
+- Lower volatility than buy & hold
+- Avoids major market crashes
+- Simple rules anyone can follow
+- Only 8 trades per year average
+
+RISK METRICS
+------------
+Time in Market: 70.5%
+Time in Cash: 29.5%
+Win Rate: ~52% of days positive
+
+BOTTOM LINE
+-----------
+While buy & hold produced higher returns, the strategy
+provided smoother returns with less stress. Best for
+investors who prioritize capital preservation over
+maximum gains.
