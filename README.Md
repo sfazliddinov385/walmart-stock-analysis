@@ -15,6 +15,7 @@ The main dashboard tracks:
 
 ## Project Structure
 
+```
 walmart-stock-dashboard/
 ├── data/                     # Stock price files
 ├── scripts/                  # Python code for ETL
@@ -22,7 +23,7 @@ walmart-stock-dashboard/
 ├── ml_models/                # Trading strategy notebook
 ├── screenshots/              # Dashboard images
 └── docs/                     # Documentation
-
+```
 ## Getting Started
 
 First, clone the repository and install the required Python packages:
