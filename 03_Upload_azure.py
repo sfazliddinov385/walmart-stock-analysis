@@ -10,7 +10,7 @@ def upload_walmart_data_to_azure():
     
     # Connection details
     SERVER = 'mygithubprojects.database.windows.net'
-    DATABASE = 'WalmartStockMarketHistorty'  # Note: typo in database name
+    DATABASE = 'WalmartStockMarketHistorty'  
     
     # Get credentials
     print("Enter your SQL Server credentials:")
@@ -148,11 +148,11 @@ def upload_walmart_data_to_azure():
         
         stats = cursor.fetchone()
         print(f"\nDatabase Statistics:")
-        print(f"  📈 Total Rows: {stats[0]:,}")
-        print(f"  📅 Date Range: {stats[1]} to {stats[2]}")
-        print(f"  💰 Price Range: ${stats[3]:.4f} to ${stats[4]:.2f}")
-        print(f"  💵 Average Price: ${stats[5]:.2f}")
-        print(f"  🔄 Stock Splits: {stats[6]}")
+        print(f"   Total Rows: {stats[0]:,}")
+        print(f"   Date Range: {stats[1]} to {stats[2]}")
+        print(f"   Price Range: ${stats[3]:.4f} to ${stats[4]:.2f}")
+        print(f"   Average Price: ${stats[5]:.2f}")
+        print(f"   Stock Splits: {stats[6]}")
         
         # Calculate total return
         cursor.execute("""
@@ -191,7 +191,7 @@ def upload_walmart_data_to_azure():
             print(f"  {row[0]}: Close=${row[1]:.2f}, Volume={row[2]:,}")
         
         print("\n✅ SUCCESS! Your Walmart stock data is now in Azure SQL Database!")
-        print("\n📝 Next steps:")
+        print("\n Next steps:")
         print("  1. Use Query Editor in Azure Portal to run SQL queries")
         print("  2. Connect from Power BI to create visualizations")
         print("  3. Use Python/pandas to analyze the data")
